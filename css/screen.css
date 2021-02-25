@@ -1,14 +1,14 @@
-body{
-    max-width: 42em;
-    margin: 0 auto;
+body {
+  max-width: 42em;
+  margin: 0 auto;
 }
 
 html {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
-    color: #111;
-    padding: 24px 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+  color: #111;
+  padding: 24px 24px 0;
 }
 
 /*
@@ -19,45 +19,44 @@ html {
  */
 
 ::-moz-selection {
-
 }
 
 ::selection {
-    background: #44c8f5;
-    color: white;
+  background: #44c8f5;
+  color: white;
 }
 
 img {
-    max-width: 100% ;
-    vertical-align: top;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 h1 {
-    font-family: "Times New Roman", serif;
-    font-size: 36px;
-    font-weight: normal;
-    line-height: 40px;
-    margin: 0 0 48px;
+  font-family: 'Times New Roman', serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 48px;
 }
 
 h2 {
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 p,
@@ -67,83 +66,79 @@ dl,
 table,
 address,
 figure {
-    margin: 0 0 24px;
+  margin: 0 0 24px;
 }
 
 ul,
-ol{
-    padding-left: 24px;
-
+ol {
+  padding-left: 24px;
 }
 
 li ul,
-li ol{
-    margin-bottom: 0;
+li ol {
+  margin-bottom: 0;
 }
 
 blockquote {
-    font-style: italic;
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: 'Times New Roman', serif;
 }
 
 blockquote * {
-    font-size: inherit;
-    line-height: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 figcaption {
-    font-size: 12px;
-    line-height: 16px;
-    padding-top: 8px;
-    color: grey;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: grey;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: lightgrey;
-    margin: 0 0 24px;
+  border: 0;
+  height: 1px;
+  background: lightgrey;
+  margin: 0 0 24px;
 }
 
 a {
-    color: royalblue;
-    transition: all .1s ease-in-out;
-}
-
-a:hover,
-a:focus {
-    color: crimson;
+  color: royalblue;
+  transition: all 0.1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: blueviolet;
+  color: blueviolet;
+}
+
+a:hover,
+a:focus {
+  color: crimson;
 }
 
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    h1{
-        font-size: 58px;
-        line-height: 64px;
-    }
-    html{
-        padding: 48px 48px 24px;
-    }
+  h1 {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  html {
+    padding: 48px 48px 24px;
+  }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
