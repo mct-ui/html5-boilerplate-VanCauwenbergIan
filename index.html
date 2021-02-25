@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Ian Van Cauwenberg - HTML5 Boilerplate</title>
+        <title id="heading2">Ian Van Cauwenberg - HTML5 Boilerplate</title>
         <meta name="description" content="This is my HTLM5 Boilerplate">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#44c8f5">
@@ -20,14 +20,14 @@
             <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
         </header>
         <h2>Table</h2>
-        <Table>
+        <Table id="table">
             <tr>
                 <th>Country</th>
                 <th>Capital</th>
                 <th>Population</th>
                 <th>Language</th>
             </tr>
-            <tr>
+            <tr class="odd">
                 <td>USA</td>
                 <td>Washington DC</td>
                 <td>309 million</td>
@@ -39,7 +39,7 @@
                 <td>9 million</td>
                 <td>Swedish</td>
             </tr>
-            <tr>
+            <tr class="odd">
                 <td>France</td>
                 <td>Paris</td>
                 <td>10 million</td>
@@ -59,7 +59,7 @@
             <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat">
             <figcaption>Yawning cat. Photo by Martina Misar</figcaption>
         </figure>
-        <h3>
+        <h3 id="heading3">
             To get you started
         </h3>
         <p>
@@ -73,17 +73,31 @@
         <h3>
             Styling lists is easy
         </h3>
-        <ul>
+        <ul id="lists">
             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eum.</li>
             <li>Rerum deserunt reprehenderit accusamus delectus corporis, obcaecati pariatur eligendi voluptas!</li>
             <li>Tenetur facere odio similique accusamus fugit unde sapiente odit nostrum.</li>
         </ul>
-        <p>
-            Add an unorderd list with 3 list items here
-        </p>
         <hr>
+        <h2>In this document</h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#heading2">Heading 2</a>
+                </li>
+                <li>
+                    <a href="#heading3">Heading 3</a>
+                </li>
+                <li>
+                    <a href="#lists">Lists</a>
+                </li>
+                <li>
+                    <a href="#table">Table</a>
+                </li>
+            </ul>
+        </nav>
         <footer>
-            <p>By <strong>Your name</strong></p>
+            <p>By <strong>Ian Van Cauwenberg</strong></p>
         </footer>
     </body>
 </html>
